@@ -1,0 +1,10 @@
+node_modules
+.env
+.husky
+Makefile
+bin
+*.py
+*.csv
+*001.zip
+
+drive-download-20231126T091202Z-001

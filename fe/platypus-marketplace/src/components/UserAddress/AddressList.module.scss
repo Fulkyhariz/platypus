@@ -1,0 +1,7 @@
+.listContainer {
+  @apply cursor-pointer rounded-lg;
+}
+
+.isActive {
+  @apply border-[1px] border-primary bg-primary/10;
+}

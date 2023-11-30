@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Raysa",
+      "last_name": "Arina",
+      "email": "arina@gmail.com",
+      "username": "raysaarina",
+      "phone_number": "82116691898",
+      "gender": "M",
+      "date_of_birth": "1697952971000",
+      "is_seller": false,
+      "profile_picture": "http://res.cloudinary.com/dro3sbdac/image/upload/v1698215069/g8bd7k9tgcpobr8igzll.jpg",
+      "password": "$2a$10$yx2qZjK3vS3zhsDprgY42Oyg3rhzwNLGYbaHT4nPUWz6WSeHMtKaO"
+    }
+  ],
+  "addresses": [
+    {
+      "userId": 1,
+      "province": "Jawa Barat",
+      "province_code": "9",
+      "district": "Bandung",
+      "district_code": "22",
+      "sub_district": "Baleendah",
+      "sub_sub_district": "Cigado",
+      "zip_code": "40375",
+      "phone_number": "82116691898",
+      "details": "Komplek Graha Sari Endah Jalan Anggur 2 No 3",
+      "id": 1,
+      "is_shop_location": false,
+      "is_default": true
+    },
+    {
+      "userId": 1,
+      "province": "DKI Jakarta",
+      "province_code": "6",
+      "district": "Jakarta Selatan",
+      "district_code": "153",
+      "sub_district": "Tebet",
+      "sub_sub_district": "Tebet TImur",
+      "zip_code": "30011",
+      "phone_number": "82116691717",
+      "details": "Kost Barokan Jalan S. No 22",
+      "id": 2,
+      "is_shop_location": true,
+      "is_default": false
+    },
+    {
+      "userId": 1,
+      "province": "Bali",
+      "province_code": "1",
+      "district": "Gianyar",
+      "district_code": "128",
+      "sub_district": "Bali",
+      "sub_sub_district": "Bali",
+      "zip_code": "76164",
+      "phone_number": "866241412",
+      "details": "Bali Giayar",
+      "id": 3,
+      "is_shop_location": false,
+      "is_default": false
+    },
+    {
+      "province": "Banten",
+      "province_code": "3",
+      "district": "Pandeglang",
+      "district_code": "331",
+      "sub_district": "ngasalaja",
+      "sub_sub_district": "ngajsalaja",
+      "zip_code": "89772",
+      "phone_number": "80897978",
+      "details": "ngasal aja",
+      "id": 4
+    }
+  ]
+}

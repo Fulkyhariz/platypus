@@ -1,0 +1,43 @@
+package usecase
+
+import (
+	"digital-test-vm/be/internal/shared"
+	"errors"
+)
+
+var (
+	ErrOrderNotFound                     = errors.New(shared.ErrOrderNotFound.Message)
+	ErrPhotoNotFound                     = errors.New(shared.ErrPhotoNotFound.Message)
+	ErrFailedCreateProduct               = errors.New("failed creating product")
+	ErrFailedUpdateProduct               = errors.New("failed updating product")
+	ErrVariantNotFound                   = errors.New(shared.ErrVariantNotFound.Message)
+	ErrFailedGettingListofCategories     = errors.New("failed getting list of categories")
+	ErrFailedGettingMerchantData         = errors.New("failed getting merchant data")
+	ErrFailedGettingProductsData         = errors.New("failed getting products data")
+	ErrUnauthorizedProduct               = errors.New(shared.ErrUnauthorizedAccess.Message)
+	ErrProductNotFound                   = errors.New(shared.ErrProductNotFound.Message)
+	ErrInternalServerError               = errors.New(shared.ErrInternalServerError.Message)
+	ErrAlreadyHaveMerchant               = errors.New("you already registered as merchant")
+	ErrAccountNotFound                   = errors.New("account not found")
+	ErrInvalidVerificationCode           = errors.New("invalid username in verification code")
+	ErrPasswordIsSame                    = errors.New("password is the same as before")
+	ErrOrderDetailStatus                 = errors.New(shared.ErrOrderDetailStatus.Message)
+	ErrProductReviewed                   = errors.New(shared.ErrProductReviewed.Message)
+	ErrPinIsSame                         = errors.New("pin is the same as before")
+	ErrWrongCredential                   = errors.New("wrong username or password")
+	ErrFailedGettingCategory             = errors.New("failed getting category")
+	ErrProductVariantStock               = errors.New(shared.ErrProductVariantStock.Message)
+	ErrWrongUserTryingToAccessMerchant   = errors.New("wrong user trying to access merchant")
+	ErrInvalidVoucher                    = errors.New("invalid voucher")
+	ErrInsufficientBalance               = errors.New("insufficient balance")
+	ErrCartEmpty                         = errors.New("cart is empty")
+	ErrUnauthorizedAccess                = errors.New(shared.ErrUnauthorizedAccess.Message)
+	ErrDecreasedStock                    = errors.New(shared.ErrDecreasedStock.Message)
+	ErrListTransactionNotFound           = errors.New(shared.ErrListTransactionNotFound.Message)
+	ErrInvalidMaxAmount                  = errors.New("max amount invalid")
+	ErrFailedToCreatePromotion           = errors.New("failed to create promotion")
+	ErrMustSpecifyProduct                = errors.New("must specify products for product scope promotion")
+	ErrInvalidAmountForDiscountTypePromo = errors.New("invalid amount for discount type promo. cannot be greater than 100%")
+	ErrInvalidAddress                    = errors.New("invalid address")
+	ErrOrderDetailNotFound               = errors.New(shared.ErrOrderDetailNotFound.Message)
+)

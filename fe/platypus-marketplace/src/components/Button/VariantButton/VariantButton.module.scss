@@ -1,0 +1,19 @@
+.variantButtonContainer {
+  @apply flex items-center gap-3 rounded-lg border-[1px] p-2 text-sm;
+}
+
+.inActive {
+  @apply border-border;
+}
+
+.able {
+  @apply transition-colors hover:border-primary hover:bg-primary/20 hover:transition-colors;
+}
+
+.disable {
+  @apply disabled:bg-muted;
+}
+
+.active {
+  @apply border-primary bg-primary/20;
+}
