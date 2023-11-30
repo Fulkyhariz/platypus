@@ -1,0 +1,11 @@
+.smallImageContainer {
+  @apply aspect-square h-full cursor-pointer rounded-lg border-2 object-cover transition-colors hover:border-primary hover:transition-colors;
+}
+
+.active {
+  @apply border-primary;
+}
+
+.inActive {
+  @apply border-border;
+}
