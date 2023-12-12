@@ -7,13 +7,18 @@ import LoadingScreen from "../Loading/LoadingScreen";
 
 interface IUserLayout {
   children: React.ReactNode;
+  noOverFlow?: boolean;
 }
 
-function UserLayout({ children }: IUserLayout) {
+function UserLayout({ children, noOverFlow }: IUserLayout) {
   return (
     <ThemeProvider attribute="class" defaultTheme="system">
       <LoadingScreen />
-      <div className={`relative flex min-h-screen flex-col  overflow-hidden`}>
+      <div
+        className={`relative flex min-h-screen flex-col ${
+          !noOverFlow && "overflow-hidden"
+        }`}
+      >
         <div className="fixed bottom-5 right-5 z-[100]">
           <ModeToggle />
         </div>

@@ -146,7 +146,7 @@ const ProductDetails = ({ productData }: IProductDetailsPage) => {
 export default ProductDetails;
 
 ProductDetails.getLayout = function getLayout(page: ReactElement) {
-  return <UserLayout>{page}</UserLayout>;
+  return <UserLayout noOverFlow>{page}</UserLayout>;
 };
 
 export const getServerSideProps: GetServerSideProps = async ({
