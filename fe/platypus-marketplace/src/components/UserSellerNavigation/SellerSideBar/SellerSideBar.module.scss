@@ -1,7 +1,0 @@
-.asideContainer {
-  @apply fixed left-0 top-0 z-20 flex h-[100vh] w-[65vw] flex-col justify-between border-r-[0.5px] border-primary bg-background px-7 py-5 transition-transform duration-500 lg:w-[20vw];
-}
-
-.listWrapper {
-  @apply mt-[34px] space-y-5;
-}
