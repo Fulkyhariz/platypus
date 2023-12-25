@@ -1,3 +1,5 @@
 .env.example
 .gitignore
-.README.md
+README.md
+Makefile
+*.pem
