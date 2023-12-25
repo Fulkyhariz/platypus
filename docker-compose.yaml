@@ -57,6 +57,7 @@ services:
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
       - ./certbot/www/:/var/www/certbot:ro
+      - ./certbot/conf/:/etc/letsencrypt/:ro
     network_mode: host
 
   certbot:
@@ -64,7 +65,6 @@ services:
     volumes:
       - ./certbot/www/:/var/www/certbot/:rw
       - ./certbot/conf/:/etc/letsencrypt/:rw
-
 volumes:
   data-db:
   cache:
