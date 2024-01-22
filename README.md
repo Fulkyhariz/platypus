@@ -1,5 +1,7 @@
 # Platypus Backend
 
+https://www.platypus.web.id/
+*this is a prototype website, do not input any credential or real life data to the website
 
 ## Getting Started
 
